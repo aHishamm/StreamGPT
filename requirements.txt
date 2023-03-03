@@ -1,4 +1,4 @@
-gradio
+streamlit
 python-dotenv
 seaborn
 pandas

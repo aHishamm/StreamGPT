@@ -1,5 +1,6 @@
 import os
 import openai
+import time
 import streamlit as st 
 from dotenv import load_dotenv
 load_dotenv() 
@@ -56,5 +57,8 @@ with col1:
             res = chatGPT(user_input,temperature,max_tokens)
 with col2: 
     if user_input: 
+        with st.spinner('Processing...'): 
+            time.sleep(1)
         st.write("ChatGPT Response: ")
         st.write(res)
+        st.success("Response Received!",icon="✅")
