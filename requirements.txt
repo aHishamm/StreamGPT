@@ -1,0 +1,5 @@
+gradio
+python-dotenv
+seaborn
+pandas
+openai
