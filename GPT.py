@@ -35,7 +35,7 @@ with col1:
     elif style_option == 'Python Interpreter': 
         user_input = st.text_input("Write down the coding problem: ")
         if user_input: 
-            res = chatGPT("Write a Python script that performs the following description: "+user_input,temperature,max_tokens)
+            res = chatGPT("Write a Python program that performs the following description: "+user_input,temperature,max_tokens)
 
     elif style_option == 'Java Code Generation': 
         user_input = st.text_input("Write down the coding problem: ") 
