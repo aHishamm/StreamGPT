@@ -13,3 +13,7 @@ pip install -r requirements.txt
 ```bash
 streamlit run GPT.py
 ```
+
+#### Project Preview 
+https://user-images.githubusercontent.com/40188935/222928458-b41dba76-612b-4f72-b4cb-619a66339560.mp4
+
