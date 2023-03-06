@@ -17,6 +17,7 @@ streamlit run GPT.py
 #### Project Preview 
 https://user-images.githubusercontent.com/40188935/222928458-b41dba76-612b-4f72-b4cb-619a66339560.mp4
 
+#### Containerization
 - To create a Docker container, a Dockerfile is provided. Make sure Docker Desktop is installed, and the OpenAI API key is stored in a .env folder, the Dockerfile contains the following.  
 ```bash
 FROM python:3.10-slim
